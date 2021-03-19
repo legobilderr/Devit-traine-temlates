@@ -1,0 +1,36 @@
+.wrapper {
+
+  background: rgba(31, 58, 147, 1);
+  max-width: 1200px;
+  max-height: 500px;
+  border-radius: 1rem;
+  margin: auto;
+
+  .container {
+
+    background-image: url("../img/cover-1@2x.png");
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    max-width: 1200px;
+    max-height: 500px;
+    border-radius: 1rem;
+    filter: opacity(60);
+
+
+
+    .left-col{
+      display: inline-block;
+      float: left;
+      max-width: 600px;
+    }
+    .right-col{
+      display: inline-block;
+      float: right;
+      max-width: 600px;
+    }
+
+  }
+}
