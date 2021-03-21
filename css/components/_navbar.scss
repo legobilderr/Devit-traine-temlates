@@ -1,4 +1,6 @@
 .navbar{
+  margin: 0 auto;
+  max-width: 1200px;
   background: white;
   padding: 1em;
 
@@ -15,17 +17,37 @@
 
   .container{
     display: flex;
-    place-content: space-between;
+    //place-content: space-between;
+    .logo{
+      flex-grow: 1;
+    }
+
+    nav{
+      flex-grow: 1;
+      width :100%;
+      display: flex;
+
+      .mobile-exit{
+        display: none;
+      }
+
+      .mobile-cta{
+        display: none;
+      }
 
 
-  }
-  nav{
-    display: none;
+      ul{
+        width :100%;
+        display: flex;
+        place-content: space-between;
+        justify-content: space-between;
+      }
+    }
   }
 
-  .mobile-cta{
-    cursor: pointer;
-  }
+
+
+
 }
 
 

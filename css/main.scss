@@ -273,5 +273,9 @@ ul{
   margin: 0;
   padding: 0;
 }
+
+div {
+  display: block;
+}
 @import "components/navbar";
 @import "components/Body";
