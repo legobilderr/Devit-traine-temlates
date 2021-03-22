@@ -1,0 +1,82 @@
+.wrapper3{
+  display: flex;
+  flex-direction: column;
+
+  .wrapper3-top {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+    padding-bottom: 50px;
+    .wrap3-top-text {
+
+    }
+  }
+  .wrapper3-buttom{
+    display: flex;
+
+    .rent-steps-wrapper{
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+
+      .rent-steps{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+        .step{
+          display: flex;
+
+
+          .numner-step{
+
+            width: 30px;
+            height: 30px;
+            background-color: rgba(21, 101, 216, 0.9);
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: "hk_groteskbold", sans-serif;
+            font-weight: bold;
+          }
+          .text-of-steps{
+            padding-left: 10px;
+
+          }
+          h2{
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .wrapper3-buttom-buttom{
+    display: flex;
+    margin: 40px;
+
+    .buttom-buttom-image{
+      width: 460px;
+      height: 460px;
+
+      img{
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+      }
+    }
+    .buttom-buttom-text{
+      width: 600px;
+      padding-left: 30px;
+      i,p{
+        font-size: 40px;
+      }
+      p{
+        padding-right: 20px;
+      }
+    }
+  }
+}

@@ -277,5 +277,12 @@ ul{
 div {
   display: block;
 }
+.main-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
 @import "components/navbar";
 @import "components/Body";
+@import "components/wraper2";
+@import "components/wraper3";
+@import "components/wraper4";
