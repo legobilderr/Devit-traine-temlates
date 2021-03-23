@@ -8,6 +8,19 @@ footer{
 
     .ehya{
       width: 200px;
+      .logo {
+        position: relative;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 35px;
+
+        span {
+          position: absolute;
+          top: -15px;
+          color: blue;
+        }
+      }
     }
 
     .colums-element{

@@ -180,9 +180,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -260,15 +260,20 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
 }
 
-a{
+a {
   color: lightslategrey;
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -277,10 +282,12 @@ ul{
 div {
   display: block;
 }
-.main-section{
+
+.main-section {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 @import "components/navbar";
 @import "components/Body";
 @import "components/wraper2";
