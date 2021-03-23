@@ -1,6 +1,8 @@
 .wrapper4{
   display: flex;
   flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
 
   .wrapper4-top{
     margin: 0 auto;
@@ -11,9 +13,10 @@
 
   .wrapper4-meedle{
     display: flex;
+    justify-content: space-between;
 
     .wrapper4-meedle-img{
-      width: 326px;
+      width: 360px;
       height: 360px;
       border-radius: 0.5rem;
       img{
@@ -24,6 +27,10 @@
       }
     }
     .wrapper4-text{
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
       .wrapper4-text-buttom{
         display: flex;
@@ -37,12 +44,16 @@
     }
   }
   .wrapper4-buttom{
+    padding-top: 30px;
+    width: 800px;
     display: flex;
+    margin: 0 auto;
 
     .wrapper4-buttom-image{
-      width: 326px;
+      width: 450px;
       height: 360px;
       border-radius: 0.5rem;
+      padding-right: 30px;
       img{
         width: 100%;
         height: 100%;
@@ -50,12 +61,18 @@
         border-radius: 0.5rem;
       }
     }
+    .wrapper4-buttom-text {
 
-    .wrapper4-check-list{
-      display: flex;
+      padding-left: 30px;
+      margin: 20px;
 
-      li{
+      .wrapper4-check-list {
         display: flex;
+        justify-content: space-between;
+
+        li {
+          display: flex;
+        }
       }
     }
   }

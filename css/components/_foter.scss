@@ -1,0 +1,44 @@
+footer{
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+  .top-footer{
+    display: flex;
+    height: 200px;
+
+    .ehya{
+      width: 200px;
+    }
+
+    .colums-element{
+      display: flex;
+
+      .colum{
+        display: flex;
+        flex-direction: column;
+
+        .top-colum{
+          margin: 10px;
+        }
+
+        .content-colum{
+          width: 150px;
+          min-height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          ul{
+            li{
+              margin: 10px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+  .buttom-footer{
+    margin-top: 30px;
+    text-align: center;
+  }
+}
