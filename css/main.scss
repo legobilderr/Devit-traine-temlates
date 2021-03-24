@@ -265,12 +265,12 @@ textarea {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
+  font-family: 'Poppins', sans-serif ;
+  margin: 0 ;
 }
 
 a {
-  color: lightslategrey;
+  color: lightslategrey !important;
 }
 
 ul {
@@ -282,11 +282,24 @@ ul {
 div {
   display: block;
 }
-
-.main-section {
-  max-width: 1200px;
-  margin: 0 auto;
+h2{
+  font-size: 1.5em ;
+  margin-bottom: 0 ;
 }
+
+//col{
+//  padding-right: 0 !important;
+//  padding-left: 0 !important;
+//}
+
+//h1{
+//  font-size: 2em !important;
+//}
+//
+//.main-section {
+//  max-width: 1200px;
+//  margin: 0 auto;
+//}
 
 @import "components/navbar";
 @import "components/Body";

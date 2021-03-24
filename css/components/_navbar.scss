@@ -14,7 +14,7 @@
         position: relative;
         text-decoration: none;
         font-weight: bold;
-        color: black;
+        color: black !important;
         font-size: 35px;
 
         span {
@@ -45,6 +45,7 @@
         ul {
           width: 100%;
           display: flex;
+          margin-bottom: 0;
           .ul-wraper{
             width: 100%;
             place-content: space-between;
