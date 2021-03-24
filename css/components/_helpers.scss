@@ -31,7 +31,7 @@ padding-bottom: 20px;
 }
 
 .span-color-blue{
-  background-color: rgb(115, 213, 232);
+  background-color: #c6dfe4;
   color: #0f4193 !important;
   border-radius: 15px;
   padding: 0 1rem;
@@ -63,4 +63,16 @@ padding-bottom: 20px;
   align-items: center;
   color: white;
   margin: 0 auto;
+}
+
+.white-background{
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 10px 15px 0 rgb(21 37 71 / 15%);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
